@@ -1,5 +1,10 @@
 .. -*- mode: rst -*-
 
+Chawla等人提出的SMOTE算法是一种简单有效的上采样方法，
+该方法首先为每个稀有类样本随机选出几个邻近样本，并且在该样本与这些邻近的样本的连线上随机取点，生成无重复的新的稀有类样本。
+还有一些其他的方法，如添加随机噪声等。
+https://www.tinymind.cn/articles/1216
+
 .. _scikit-learn: http://scikit-learn.org/stable/
 
 .. _scikit-learn-contrib: https://github.com/scikit-learn-contrib
